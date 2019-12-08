@@ -1,5 +1,7 @@
 var fs = require('fs')
 var path = require('path')
+var minify = require('html-minifier').minify;
+
 const rootDir = process.cwd()
 
 var foo = `
@@ -1014,5 +1016,18 @@ res.map(item => {
 })
 
 let strTmpl = fs.readFileSync(path.join(rootDir, 'index_tmpl.html')).toString('utf8')
+let strResult = minify(strTmpl.replace("{{TMP_STRING}}", str), {
+    collapseWhitespace: true,
+    minifyCSS: true,
+    removeAttributeQuotes: true,
+    removeComments: true,
+    removeEmptyAttributes: true,
+    removeEmptyElements: true,
+    removeOptionalTags: true,
+    removeRedundantAttributes: true,
+    removeScriptTypeAttributes: true,
+    removeStyleLinkTypeAttributes: true,
+    removeTagWhitespace: true,
+});
 
-fs.writeFileSync(path.join(rootDir, 'index.html'), strTmpl.replace("{{TMP_STRING}}", str))
+fs.writeFileSync(path.join(rootDir, 'index.html'), strResult)
