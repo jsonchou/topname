@@ -1004,7 +1004,7 @@ res.map(item => {
 <tr>
     <td><a class="domain-grid-name" href="http://${item}"
             target="_blank">${item}</a></td>
-    <td></td>
+    <td>${item.replace('.app', '').toUpperCase()}</td>
     <td>
         <a target="_blank" href="https://dan.com/buy-domain/${item}">buy</a>
     </td>
