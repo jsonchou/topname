@@ -2,7 +2,10 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getHelloTest(): string {
+    return 'Hello World test!';
+  }
+  getHello2(): string {
+    return 'Hello World2!';
   }
 }
