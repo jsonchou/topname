@@ -1235,9 +1235,9 @@ res.map((item, index) => {
         str += `
             <tr>
                 <td>${index}</td>
-                <td><a class="domain-grid-name" href="//${item}" target="_blank">${item}</a></td>
+                <td><a href="//${item}" >${item}</a></td>
                 <td>${item.replace('.app', '').toUpperCase()}</td>
-                <td><a target="_blank" href="//dan.com/buy-domain/${item}">buy</a></td>
+                <td><a href="//dan.com/buy-domain/${item}">buy</a></td>
             </tr>`;
     }
 })
