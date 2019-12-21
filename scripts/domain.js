@@ -9,9 +9,7 @@ sok.app
 eux.app
 leur.app
 cantik.app
-darksideofmoon.com
 tahu.app
-lightingchaos.com
 haz.app
 lus.app
 ves.app
