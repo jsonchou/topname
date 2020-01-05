@@ -5,6 +5,7 @@ var minify = require('html-minifier').minify;
 const rootDir = process.cwd()
 
 var foo = `
+dma.app
 skywalker.app
 xapo.app
 usdx.app
