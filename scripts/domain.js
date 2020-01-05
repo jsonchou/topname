@@ -5,6 +5,25 @@ var minify = require('html-minifier').minify;
 const rootDir = process.cwd()
 
 var foo = `
+skywalker.app
+xapo.app
+usdx.app
+nash.app
+zanlove.com
+throughchaos.com
+swingchaos.com
+sharpchaos.com
+flatchaos.com
+flatnoise.com
+chaoswander.com
+wanderchaos.com
+flowchaos.com
+wisechaos.com
+deko.app
+ubot.app
+vinkle.app
+autoplay.app
+naam.app
 sok.app
 eux.app
 leur.app
