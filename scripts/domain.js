@@ -11,15 +11,6 @@ xapo.app
 usdx.app
 nash.app
 zanlove.com
-throughchaos.com
-swingchaos.com
-sharpchaos.com
-flatchaos.com
-flatnoise.com
-chaoswander.com
-wanderchaos.com
-flowchaos.com
-wisechaos.com
 deko.app
 ubot.app
 vinkle.app
@@ -738,7 +729,6 @@ skap.app
 miaosi.app
 heiwu.app
 shiwen.app
-panpay.app
 zhaohua.app
 zhigu.app
 bendi.app
