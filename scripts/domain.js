@@ -1245,7 +1245,7 @@ res.map((item, index) => {
                 <td>${index}</td>
                 <td><a href="//${item}" >${item}</a></td>
                 <td>${item.replace('.app', '').toUpperCase()}</td>
-                <td><a href="//dan.com/buy-domain/${item}">buy</a></td>
+                <td><a href="//${item}">buy</a></td>
             </tr>`;
     }
 })
